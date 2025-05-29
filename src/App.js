@@ -1,8 +1,8 @@
 
 import React from 'react';
 import {useState} from "react";
-import Navbar from './navbar';
-import Body from './body';
+import Navbar from './components/navbar';
+import Body from './components/body';
 
 function App() {
   const[variable,setvariable]=useState("dark")
